@@ -7,14 +7,14 @@
 2)	这个CPU采用的是哈佛结构，程序存储器和数据存储器（充当内存的角色）深度都不大，都是512个字节。在一块FPGA的开发板上，总合成reg后或者分布式RAM后布线也不会太长，内存访问的时间都是固定时钟周期，所以也没太考虑采用多级缓存cache。
 接下来看一下这个CPU的框架图如下所示：
 <p align="center">
-![image](https://github.com/user-attachments/assets/360f8161-4e31-4d1b-ac02-e6cdc6c8fee2)
+<img src = "images/frame.png"width="700" height="500">
  </p>
  <p align="center">图1：基本框图<p>
 
 最终运行的结果是这样的：
 CPU会执行一段代码，这段代码的功能是实现一个暴力匹配算法，在Linuxisnotunixisnotunixisnotunix中搜寻和unix单词匹配上的次数，并将次数显示在正点领航者7020的流水灯上；但是正点原子这个开发板老版本底板只有两个灯（也没数码管），另外两个灯又在核心板上，暂时用不上，所以最大的匹配长度也就0-3次。
 <p align="center">
- ![image](https://github.com/user-attachments/assets/f8b23819-973a-44f0-8daa-648ccd7c7e03)
+ <img src = "images/frame.png"width="700" height="500">
   </p>
  <p align="center">图2：绿框的两个灯，上述语句有3次匹配 <p>
 <p align="center">
