@@ -14,11 +14,11 @@
 最终运行的结果是这样的：
 CPU会执行一段代码，这段代码的功能是实现一个暴力匹配算法，在Linuxisnotunixisnotunixisnotunix中搜寻和unix单词匹配上的次数，并将次数显示在正点领航者7020的流水灯上；但是正点原子这个开发板老版本底板只有两个灯（也没数码管），另外两个灯又在核心板上，暂时用不上，所以最大的匹配长度也就0-3次。
 <p align="center">
- <img src = "images/frame.png"width="700" height="500">
+ <img src = "images/result.png"width="700" height="500">
   </p>
  <p align="center">图2：绿框的两个灯，上述语句有3次匹配 <p>
 <p align="center">
- ![image](https://github.com/user-attachments/assets/b92f8c1f-9e30-4d7f-8102-d62f5a13c80c)
+<img src = "images/vivado.png"width="700" height="500">
   </p>
  <p align="center">图3：资源消耗图<p>
 
