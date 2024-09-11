@@ -1,5 +1,5 @@
 
-# Simple-pipeline-CPU
+# 课设：Simple-pipeline-CPU
 
 **参考的书籍名字叫《计算机组成与设计——硬件软件接口》(世界级经典书籍，强推！有中文版)**<br>
 **B站这个总结课讲的也不错：https://www.bilibili.com/video/BV1Ba4y1V7GD/?spm_id_from=333.788&vd_source=31d09444083e851f8f061fab6ba0bab0**
